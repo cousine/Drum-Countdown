@@ -1,0 +1,79 @@
+.counter-frame {
+  background: url(../images/counter.png);
+  width: 770px;
+  height: 132px;
+  position: relative;
+  border-radius: 15px;
+}
+
+div {
+  display: inline-block;
+}
+
+.counter-frame .cell {
+  top: 15px;
+  height: 105px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.counter-frame .single {
+  width: 85px;
+  left: 20px;
+}
+
+.counter-frame .double {
+  width: 204px;  
+}
+
+.counter-frame .double-small {
+  width: 148px;
+  left: 606px;
+}
+
+.counter-frame .hours {
+  left: 137px;
+}
+
+.counter-frame .minutes {
+  left: 378px;
+}
+
+.counter-frame .numbers {
+  width: 86px;
+  height: 2100px;
+  position: absolute;
+  top: 0px;
+}
+
+.counter-frame .tens {
+  background: url(../images/counter_numbers_to_5.png) -10px 0px repeat-y;
+  display: block;
+  height: 1260px;
+}
+
+.counter-frame .hours .tens {
+  background: url(../images/counter_numbers_to_2.png) -10px 0px repeat-y;
+  display: block;
+  height: 630px;
+}
+
+.counter-frame .single .tens {
+  background: url(../images/counter_numbers.png) -10px 0px repeat-y;
+  display: block;
+  height: 2100px;
+}
+
+.counter-frame .units {
+  background: url(../images/counter_numbers.png) 0 0px repeat-y;
+  left: 109px;
+  display: block;
+}
+
+.counter-frame .double-small .tens {
+  background-position: -20px 0px;
+}
+
+.counter-frame .double-small .units {
+  left: 61px; 
+}
